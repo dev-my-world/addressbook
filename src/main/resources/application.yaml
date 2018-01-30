@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    #JDBC驱动名
+    driver-class-name: com.mysql.jdbc.Driver
+    #JDBC URL
+    url: jdbc:mysql://localhost:3306/addressbook?useUnicode=true&characterEncoding=utf-8
+    #数据库用户名
+    username: root
+    #数据库密码
+    password: 123456
+  jpa:
+    #jpa 显示SQL
+    show-sql: true
+#服务器配置
+server:
+  #上下文路径
+  context-path: /addressbook
+  #端口号
+  port: 9090
